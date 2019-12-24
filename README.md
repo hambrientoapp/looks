@@ -10,4 +10,6 @@
 
 ¯\(◉◡◔)/¯ :point_right: `/awe/derp-look`
 
-ʘ‿ʘ :point_righ: `/awe/look-of-i-am-happy-with-it`
+ʘ‿ʘ :point_right: `/awe/look-of-i-am-happy-with-it`
+
+•‿• :point_right: `/awe/cute-look`
