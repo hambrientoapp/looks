@@ -1,6 +1,7 @@
 version: "1.0"
 stages:
   - "clone"
+  - "test"
   - "build"
 steps:
   main_clone:
@@ -9,6 +10,14 @@ steps:
     repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
     revision: "${{CF_BRANCH}}"
     stage: "clone"
+  perform-tests:
+    image: node:12.14.0-alpine3.11
+    working_directory: ${{main_clone}}
+    description: "Performing tests..."
+    commands:
+      - npm install
+      - npm run test
+    stage: "test"
   build:
     title: "Building a docker image..."
     type: "build"
