@@ -27,4 +27,10 @@ describe('Test the awe path', () => {
 
     expect(response.statusCode).toBe(200);
   });
+  
+  test('It should response the GET method from cute-look', async () => {
+    const response = await request(app).get('/awe/cute-look');
+
+    expect(response.statusCode).toBe(200);
+  });
 });
