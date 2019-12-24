@@ -39,4 +39,10 @@ describe('Test the awe path', () => {
 
     expect(response.statusCode).toBe(200);
   });
+  
+  test('It should response the GET method from doggy-face', async () => {
+    const response = await request(app).get('/awe/doggy-face');
+
+    expect(response.statusCode).toBe(200);
+  });
 });

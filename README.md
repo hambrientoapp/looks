@@ -15,3 +15,5 @@
 •‿• :point_right: `/awe/cute-look`
 
 ◕ ◡ ◕ :point_right: `/awe/puss-in-boots-look`
+
+•ᴥ• :point_right: `/awe/doggy-face`
