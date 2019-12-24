@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "lint": "eslint --quiet --fix app.js",
-    "test": "jest --runInBand app.test.js"
+    "test": "jest --runInBand app.test.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
