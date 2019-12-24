@@ -4,7 +4,8 @@
   "description": "API REST for looks",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --quiet --fix app.js",
+    "test": "jest --runInBand app.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
     "jest": "^24.9.0",
     "supertest": "^4.0.2"
   }
