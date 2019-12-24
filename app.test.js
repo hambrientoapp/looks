@@ -8,3 +8,11 @@ describe('Test the root path', () => {
     expect(response.statusCode).toBe(200);
   });
 });
+
+describe('Test the awe path', () => {
+  test('It should response the GET method from look-of-awe-and-joy', async () => {
+    const response = await request(app).get('/awe/look-of-awe-and-joy');
+
+    expect(response.statusCode).toBe(200);
+  });
+});
