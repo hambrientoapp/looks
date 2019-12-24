@@ -9,3 +9,5 @@
 {´◕ ◡ ◕｀} :point_right: `/awe/look-of-awe-and-joy`
 
 ¯\(◉◡◔)/¯ :point_right: `/awe/derp-look`
+
+ʘ‿ʘ :point_righ: `/awe/look-of-i-am-happy-with-it`
