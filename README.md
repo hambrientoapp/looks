@@ -7,3 +7,5 @@
 ## awe
 
 {´◕ ◡ ◕｀} :point_right: `/awe/look-of-awe-and-joy`
+
+¯\(◉◡◔)/¯ :point_right: `/awe/derp-look`

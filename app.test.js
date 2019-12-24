@@ -15,4 +15,10 @@ describe('Test the awe path', () => {
 
     expect(response.statusCode).toBe(200);
   });
+  
+  test('It should response the GET method from derp-look', async () => {
+    const response = await request(app).get('/awe/derp-look');
+
+    expect(response.statusCode).toBe(200);
+  });
 });
