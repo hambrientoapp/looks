@@ -13,3 +13,5 @@
 ʘ‿ʘ :point_right: `/awe/look-of-i-am-happy-with-it`
 
 •‿• :point_right: `/awe/cute-look`
+
+◕ ◡ ◕ :point_right: `/awe/puss-in-boots-look`
