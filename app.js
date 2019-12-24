@@ -5,6 +5,4 @@ app.get('/', (req, res) => {
     res.status(200).send('hello world')
 })
 
-app.listen(3000, () => {
-    console.log(`Running on http://localhost:3000`)
-})
+module.exports = app
